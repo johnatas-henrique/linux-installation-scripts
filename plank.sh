@@ -5,4 +5,4 @@ apt upgrade
 
 sudo apt install -y plank
 mkdir ~/.config/autostart
-cp plank.desktop /.config/autostart/plank.desktop
+cp plank.desktop ~/.config/autostart/plank.desktop
