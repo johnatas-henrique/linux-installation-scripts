@@ -9,5 +9,7 @@ read -n1 -r -p "Aperte qualquer tecla para continuar..."
 ./build.sh install
 
 sudo apt install -y libqt5pas1 vulkan-tools
-wget http://ftp.us.debian.org/debian/pool/main/g/goverlay/goverlay_0.4.3-1_amd64.deb
-sudo dpkg -i goverlay_0.4.3-1_amd64.deb
+wget http://ftp.us.debian.org/debian/pool/main/g/goverlay/goverlay_0.4.4-1_amd64.deb
+sudo dpkg -i goverlay_0.4.4-1_amd64.deb
+
+# Caso dê erro falando que o arquivo não existe, visite a página e verifique se não há uma nova versão
