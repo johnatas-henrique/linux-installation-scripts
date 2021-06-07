@@ -10,6 +10,10 @@ git config --global user.email "johnatas.henrique@gmail.com"
 git config --global core.editor "mousepad --wait"
 git config --global pull.rebase false
 
+# linhas para obrigar a utilizar SSH sempre
+git config --global url."git@github.com:".insteadOf https://github.com/
+git config --global url."git://".insteadOf https://
+
 ### Caso você tenha a sua chave SSH, coloque os arquivos dentro da pasta ~/.ssh antes de continuar
 #eval "$(ssh-agent -s)"
 #chmod 600 ~/.ssh/id_rsa
