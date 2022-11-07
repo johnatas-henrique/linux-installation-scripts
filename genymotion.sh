@@ -1,6 +1,6 @@
 #!/bin/bash
 
-wget https://dl.genymotion.com/releases/genymotion-3.2.1/genymotion-3.2.1-linux_x64.bin
+wget https://dl.genymotion.com/releases/genymotion-3.3.1/genymotion-3.3.1-linux_x64.bin
 
 wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add -
 
@@ -15,10 +15,5 @@ sudo add-apt-repository "deb [arch=amd64] http://download.virtualbox.org/virtual
 sudo apt-get update
 sudo apt install -y virtualbox-6.1
 
-chmod +x genymotion-3.2.1-linux_x64.bin
-sudo ./genymotion-3.2.1-linux_x64.bin
-
-echo Os próximos dois arquivos precisam ser colocados dentro da VM criada no Genymotion:
-read -n1 -r -p "Aperte qualquer tecla para continuar..."
-wget https://github.com/m9rco/Genymotion_ARM_Translation/raw/master/package/Genymotion-ARM-Translation_for_8.0.zip
-wget https://ufpr.dl.sourceforge.net/project/opengapps/x86/20201223/open_gapps-x86-8.0-nano-20201223.zip
+chmod +x genymotion-3.3.1-linux_x64.bin
+sudo ./genymotion-3.3.1-linux_x64.bin
