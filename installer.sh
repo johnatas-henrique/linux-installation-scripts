@@ -5,8 +5,8 @@ sudo apt upgrade
 sudo apt install -y software-properties-common apt-transport-https wget git git-all mousepad
 
 ### Troque esses valores abaixo por suas informações
-git config --global user.name "Johnatas Henrique"
-git config --global user.email "johnatas.henrique@gmail.com"
+git config --global user.name "seu-nome-aqui"
+git config --global user.email "seuemail@email.com"
 git config --global core.editor "mousepad --wait"
 git config --global pull.rebase false
 
