@@ -8,8 +8,8 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 nvm install node
-nvm install 14
-nvm alias default 14
+nvm install 16
+nvm alias default 16
 
 echo Feche o terminal e abra novamente ANTES de utilizar
 
